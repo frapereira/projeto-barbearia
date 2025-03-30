@@ -1,0 +1,70 @@
+
+
+// resposividade
+
+
+@media screen and (max-width: 768px) {
+    .header-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        i {
+            margin-top: 16px;
+            font-size: 28px;
+        }
+    }
+    .header-logo img{
+        width: 160px;
+        margin-top: 46px;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .hero {
+        min-height: 60vh;
+
+        h1 {
+            font-size: 34px;
+            padding: 0 14px;
+            width: 100%;
+        
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .haircuts{
+        flex-direction: column;
+    }
+
+    .haircut img{
+        max-width: 740px;
+    }
+
+    .btn-whatsapp {
+        img{
+            max-width: 64px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+
+}
+
+
+
+
